@@ -2,15 +2,15 @@ var Temperatura = document.getElementById("Temperatura");
 var Resultado = document.getElementById("Resultado");
 
 function CelsiusaFarenheit(){
-    Temperatura = parseInt(Temperatura.value);
+    T = parseInt(Temperatura.value);
 
-    let Respuesta = (Temperatura * 1.8) + 32;
-    Resultado.innerHTML = Respuesta;
+    let Respuesta = (T * 1.8) + 32;
+    Resultado.innerHTML = `${Respuesta}°F`;
 }
 
 function FarenheitaCelsius(){
-    Temperatura = parseInt(Temperatura.value);
+    T = parseInt(Temperatura.value);
 
-    let Respuesta = (Temperatura - 32) * (5/9);
-    Resultado.innerHTML = Respuesta;
+    let Respuesta = (T - 32) * (5/9);
+    Resultado.innerHTML = `${Respuesta}°C`;
 }
