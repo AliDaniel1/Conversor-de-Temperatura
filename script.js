@@ -1,42 +1,42 @@
 var Temperatura = document.getElementById("Temperatura");
 var Resultado = document.getElementById("Resultado");
 
-function CelsiusaFarenheit(){
+CelsiusaFarenheit = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = (T * 1.8) + 32;
     Resultado.innerHTML = `${Respuesta}°F`;
 }
 
-function FarenheitaCelsius(){
+FarenheitaCelsius = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = (T - 32) * (5/9);
     Resultado.innerHTML = `${Respuesta}°C`;
 }
 
-function CelsiusaKelvin(){
+CelsiusaKelvin = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = T + 273.15;
     Resultado.innerHTML =`${Respuesta}°K`;
 }
 
-function KelvinaCelsius(){
+KelvinaCelsius = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = T - 273.15;
     Resultado.innerHTML =`${Respuesta}°C`;
 }
 
-function KelvinaFarenheit(){
+KelvinaFarenheit = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = (T - 273.15) * 1.8 + 32;
     Resultado.innerHTML =`${Respuesta}°F`;
 }
 
-function FarenheitaKelvin(){
+FarenheitaKelvin = ()=>{
     T = parseInt(Temperatura.value);
 
     let Respuesta = (T - 32) * 5/9 + 273.15;
