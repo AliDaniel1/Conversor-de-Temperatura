@@ -8,5 +8,3 @@ Convierte unidades de temperatura facilmente
 + HTML
 + CSS
 + Javascript
-
-[Conversor](https://conversordegrados.netlify.app/)
