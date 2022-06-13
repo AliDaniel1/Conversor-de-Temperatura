@@ -1,5 +1,6 @@
 # Conversor de Temperatura
-![Conversor de temperatura](https://user-images.githubusercontent.com/105460667/172034557-1e13c0c4-1cff-4263-99d6-104a0b7c3dac.png)
+![Conversor de temperatura](https://user-images.githubusercontent.com/105460667/173368428-18df75c5-c674-4075-ae4e-8603736ebdcc.png)
+)
 
 ----
 
